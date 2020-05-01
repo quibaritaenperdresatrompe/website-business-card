@@ -142,11 +142,11 @@ export default function CvPage() {
           companyName: 'Cdiscount',
           location: 'Bordeaux, France',
           description: {
-            fr: `In the IT department dedicated to the developer :<br>
+            fr: `In the Core IT department:<br>
           - setting up and monitoring code quality<br>
           - build tools to improve DX<br>
           - technical community animation<br>
-          - setting up a teachin program : classroom and e-learning<br>
+          - setting up a teachin program: classroom and e-learning<br>
           - technical review and sourcing<br>
           - core libraries development<br>
           `,
@@ -240,7 +240,7 @@ export default function CvPage() {
           endDate: { year: 2015, month: 9 },
           diplomaName: {
             en: 'Engineering degree: Sensitive systems',
-            fr: "Diplôme d'Ingénieur, SENS Sensitive systems : Systèmes temps réel & sensibles",
+            fr: "Diplôme d'Ingénieur, SENS Sensitive systems: Systèmes temps réel & sensibles",
           },
           schoolName: 'ESTIA',
           location: 'Bidart, France',
