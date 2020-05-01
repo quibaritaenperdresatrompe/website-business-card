@@ -1,0 +1,76 @@
+{
+  "name": "valentin-barit",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Valentin Barit <valentin.barit@gmail.com>",
+  "license": "MIT",
+  "description": "Personal Portfolio",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "commit": "git-cz",
+    "format": "prettier --write '*.{html,js,json,md}'",
+    "lint": "eslint --cache ."
+  },
+  "dependencies": {
+    "gatsby": "^2.19.7",
+    "gatsby-image": "^2.2.39",
+    "gatsby-plugin-manifest": "^2.2.39",
+    "gatsby-plugin-offline": "^3.0.32",
+    "gatsby-plugin-react-helmet": "^3.1.21",
+    "gatsby-plugin-sharp": "^2.4.3",
+    "gatsby-plugin-typography": "^2.3.22",
+    "gatsby-source-filesystem": "^2.1.46",
+    "gatsby-transformer-sharp": "^2.3.13",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
+    "react-typography": "^0.16.19",
+    "styled-components": "^5.0.1",
+    "typography": "^0.16.19",
+    "typography-theme-fairy-gates": "^0.16.19"
+  },
+  "devDependencies": {
+    "@qbaepst/prettier-config": "^1.3.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "git-cz": "^3.3.0",
+    "husky": "^4.0.7",
+    "lint-staged": "^9.5.0",
+    "prettier": "^1.19.1",
+    "react-scripts": "^3.4.0",
+    "typescript": "^3.7.5",
+    "yarn-deduplicate": "^1.1.1"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{html,js,json,md}": [
+      "yarn format",
+      "git add"
+    ],
+    "yarn.lock": [
+      "yarn-deduplicate",
+      "git add"
+    ]
+  },
+  "prettier": "@qbaepst/prettier-config",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
+}
