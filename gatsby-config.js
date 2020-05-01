@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Valentin Barit's Portfolio`,
-    description: `Valentin Barit's Portfolio bootstrapped with Gatsby and deployed with GitLab and Netlify CI/CD.`,
+    title: `Valentin Barit's Business Card`,
+    description: `Valentin Barit's Business Card bootstrapped with Gatsby and deployed with GitHub ACtions and Netlify CI/CD.`,
     author: `@quibaritaenperdresatrompe`,
   },
   plugins: [

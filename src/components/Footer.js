@@ -34,8 +34,8 @@ export default function Footer({ socialNetworks }) {
           GatsbyJS
         </a>{' '}
         and deployed with{' '}
-        <a href="https://gitlab.com/" target="_blank" rel="noopener noreferrer">
-          GitLab
+        <a href="https://github.com/features/actions/" target="_blank" rel="noopener noreferrer">
+          GitHub Actions
         </a>{' '}
         and{' '}
         <a href="https://www.netlify.com/" target="_blank" rel="noopener noreferrer">
