@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/quibaritaenperdresatrompe/website-business-card/compare/v1.0.2...v1.0.3) (2020-05-02)
+
+
+### Bug Fixes
+
+* 🐛 more spellcheck ([62f2cd1](https://github.com/quibaritaenperdresatrompe/website-business-card/commit/62f2cd1cf0476e8e7dbc0bdd9bc79ec95830464b))
+
 ## [1.0.2](https://github.com/quibaritaenperdresatrompe/website-business-card/compare/v1.0.1...v1.0.2) (2020-05-02)
 
 
