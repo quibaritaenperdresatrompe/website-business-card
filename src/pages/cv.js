@@ -146,7 +146,7 @@ export default function CvPage() {
           - setting up and monitoring code quality<br>
           - build tools to improve DX<br>
           - technical community animation<br>
-          - setting up a teachin program: classroom and e-learning<br>
+          - setting up a teaching program: classroom and e-learning<br>
           - technical review and sourcing<br>
           - core libraries development<br>
           `,
